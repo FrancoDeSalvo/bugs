@@ -9,7 +9,7 @@ body:
       required: true
   - type: input
     attributes:
-      label: URL o Endpoint Afectado
+      label: Endpoint o Componente Afectado
     validations:
       required: false
   - type: textarea
@@ -19,7 +19,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Paso a paso a reproducir
+      label: Pasos para reproducir
       value: |
         1. Ir a '...'
         2. Hacer click en '...'
